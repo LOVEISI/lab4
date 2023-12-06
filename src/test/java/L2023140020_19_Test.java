@@ -29,7 +29,7 @@ public class L2023140020_19_Test {
     @Test
     public void testGameOfLifeSmallBoard() {
         Solution19 solution = new Solution19();
-        int[][] board = {{1, 1}, {1, 0}};
+        int[][] board = {{0, 1}, {1, 0}};
         int[][] expected = {{1, 1}, {1, 1}};
         solution.gameOfLife(board);
         assertArrayEquals(expected, board);
