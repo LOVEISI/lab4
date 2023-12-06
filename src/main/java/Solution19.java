@@ -1,5 +1,3 @@
-package org.example;
-
 /*
  * @Description:
  * 生命游戏
