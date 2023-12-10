@@ -24,7 +24,7 @@ public class L2023140020_19_Test {
 
     /**
      * 测试方法目的：验证小尺寸板的生命游戏逻辑
-     * huhhhuhuhuhu测试用例：小尺寸板，只包含活细胞
+     * huhhhuhuhuhu测试用例：小尺寸板，只包含活细胞hih
      */
     @Test
     public void testGameOfLifeSmallBoard() {
