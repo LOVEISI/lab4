@@ -24,12 +24,12 @@ public class L2023140020_19_Test {
 
     /**
      * 测试方法目的：验证小尺寸板的生命游戏逻辑
-     * 测试用例：小尺寸板，只包含活细胞
+     * huhhhuhuhuhu测试用例：小尺寸板，只包含活细胞
      */
     @Test
     public void testGameOfLifeSmallBoard() {
         Solution19 solution = new Solution19();
-        int[][] board = {{0, 1}, {1, 0}};
+        int[][] board = {{1, 1}, {1, 0}};
         int[][] expected = {{1, 1}, {1, 1}};
         solution.gameOfLife(board);
         assertArrayEquals(expected, board);
